@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 根据名字自动装配 -->
+    <bean id="orderService" class="com.wdd.spring6.service.OrderService" autowire="byName"></bean>
+    <!-- id一般也叫bean的名称  -->
+    <!--根据名字自动装配,被注入的对象的bean的id不能随便写，set方法名去掉set后的单词首字母变成小写放到这-->
+    <bean id="orderDao" class="com.wdd.spring6.dao.OrderDao"/>
+
+    <!-- 根据类型自动装配 -->
+    <!-- 根据类型自动装配时，在有效的配置文件中，某种类型的实例只能有一个 -->
+    <bean class="com.wdd.spring6.dao.UserDao"></bean>
+    <bean class="com.wdd.spring6.dao.VipDao"></bean>
+    <bean id="cs" class="com.wdd.spring6.service.CustomerService" autowire="byType"></bean>
+</beans>

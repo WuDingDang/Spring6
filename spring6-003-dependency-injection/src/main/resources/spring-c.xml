@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        第一步：在spring配置文件头部添加  xmlns:c="http://www.springframework.org/schema/c"
+        第二步：使用
+        c:_0  下标方式
+        c:name  参数名
+    -->
+<!--    <bean id="peopleBean" class="com.wdd.spring6.bean.People" c:_0="小小" c:_1="11" c:_2="true"></bean>-->
+    <bean id="peopleBean" class="com.wdd.spring6.bean.People" c:name="hhh" c:age="22" c:sex="true"></bean>
+</beans>
