@@ -4,8 +4,264 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d26a86b3-3ee7-4a6d-aadc-c95da4698c83" name="Changes" comment="spring end">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d26a86b3-3ee7-4a6d-aadc-c95da4698c83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/com/wdd/proxy/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/com/wdd/proxy/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/com/wdd/proxy/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/com/wdd/proxy/service/TimeerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/com/wdd/proxy/util/ProxyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/Dagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/DaggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/GunFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/wdd/factory/method/WeaponFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/src/main/java/com/wdd/annotation/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/src/main/java/com/wdd/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/src/main/java/com/wdd/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/src/main/java/com/wdd/bean/Vip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/src/main/java/com/wdd/client/ComponetScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/src/main/java/com/wdd/client/ReflectAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/wdd/reflect/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/wdd/reflect/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/wdd/reflect/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/wdd/reflect/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/wdd/reflect/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/src/main/java/com/wdd/simple/factory/Dagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/src/main/java/com/wdd/simple/factory/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/src/main/java/com/wdd/simple/factory/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/src/main/java/com/wdd/simple/factory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/src/main/java/com/wdd/simple/factory/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpe-factory/src/main/java/com/wdd/simple/factory/WeaponFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-001-revelation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-002-first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-002-first/src/main/java/com/wdd/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-002-first/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-002-first/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-002-first/src/test/java/com/wdd/spring6/test/FirstSpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/MathBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/QianDaYe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/SimpleValueType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/bean/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/dao/VipDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/jdbc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/jdbc/MyDataSource1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/jdbc/MyDataSource2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/wdd/spring6/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/cascade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/set-di.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-array.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-autowire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-properties.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-util.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/wdd/spring6/test/SpringDITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-004-scope.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-004-scope/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-004-scope/src/main/java/com/wdd/spring6/bean/SpringBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-004-scope/src/main/resources/spring-scope.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-004-scope/src/test/java/com/wdd/spring6/test/SpringBeanScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/DateFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/GunFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/PersonFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/SpringBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/StarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/com/wdd/spring6/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/com/wdd/spring6/test/BeanInstantiationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-006-lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-006-lifecycle/src/main/java/com/wdd/spring6/bean/LogBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-006-lifecycle/src/main/java/com/wdd/spring6/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-006-lifecycle/src/main/java/com/wdd/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-006-lifecycle/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-006-lifecycle/src/test/java/com/wdd/spring6/test/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/main/java/com/wdd/spring6/bean/Husband.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/main/java/com/wdd/spring6/bean/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/main/java/com/wdd/spring6/bean2/Husband.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/main/java/com/wdd/spring6/bean2/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/main/resources/spring2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/src/test/java/com/wdd/spring6/test/CircularDendencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/cn/wdd/Spring6Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/cn/wdd/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/cn/wdd/dao/impl/StudentDaoImplForMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/cn/wdd/dao/impl/StudentDaoImplForOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/cn/wdd/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/wdd/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/wdd/spring6/bean2/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/wdd/spring6/bean3/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/wdd/spring6/bean3/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/wdd/spring6/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/org/wdd/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/org/wdd/dao/impl/OrderDaoImplForMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/org/wdd/dao/impl/OrderDaoImplForOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/org/wdd/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring-autowired.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring-choose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring-di-annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring-resouce.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/test/java/com/wdd/spring6/test/IoCAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/main/java/com/wdd/spring6/service/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/main/java/com/wdd/spring6/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/main/java/com/wdd/spring6/service/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/main/java/com/wdd/spring6/service/Spring6Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/main/java/com/wdd/spring6/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/src/test/java/com/wdd/spring6/test/SpringAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-011-spring-asjectj-aop-xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-011-spring-asjectj-aop-xml/src/main/java/com/wdd/spring6/service/TimerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-011-spring-asjectj-aop-xml/src/main/java/com/wdd/spring6/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-011-spring-asjectj-aop-xml/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-011-spring-asjectj-aop-xml/src/test/java/com/wdd/spring6/test/SpringAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/java/com/wdd/spring6/biz/SecurityLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/java/com/wdd/spring6/biz/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/java/com/wdd/spring6/biz/VipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/java/com/wdd/spring6/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/java/com/wdd/spring6/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/java/com/wdd/spring6/service/TransactionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/src/test/java/com/wdd/spring6/test/AOPRealAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/Spring6Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/service/IsolationService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/service/IsolationService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/java/com/wdd/bank/service/impl/AccountServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/src/test/java/com/wdd/bank/test/SpringTXTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/main/java/com/wdd/bank/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/main/java/com/wdd/bank/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/main/java/com/wdd/bank/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/main/java/com/wdd/bank/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/main/java/com/wdd/bank/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-014-tx-bank-xml/src/test/java/com/wdd/bank/test/BankTxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-015-junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-015-junit/src/main/java/com/wdd/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-015-junit/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-015-junit/src/test/java/com/wdd/spring6/test/SpringJunit4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/java/com/wdd/bank/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/java/com/wdd/bank/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/java/com/wdd/bank/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/java/com/wdd/bank/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/resources/com/wdd/bank/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/src/test/java/com/wdd/spring6/test/SMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128210908321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128212124283.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128212149858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128213924248.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128214542569.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128215848068.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128215904253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128215929448.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128220656035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128220730182.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128220740137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128220757931.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128221140332.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128221156371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128221521799.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128221729486.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128222042568.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128222101756.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231128223941635.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129201650914.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129201702327.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129202833229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129202845597.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129203504575.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129205011454.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129205023458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129205051520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129211155232.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129212741120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129212917566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129212947261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129215424578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129220001794.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129220635613.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129220716884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231129220937412.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130204843480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130204957889.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130205013260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130205112315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130205138615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130205950301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130210231392.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130210409638.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130210900531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130213532556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130213622669.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130213946159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130214330779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130214451981.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231130214457555.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231202140228317.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231202151913813.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231202152519471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231202171118607.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231202214727199.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.assets/image-20231202214804526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/wdd/proxy/client/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/wdd/proxy/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/wdd/proxy/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/wdd/proxy/service/OrderServiceProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +302,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;E:/SSM_Study/code/spring/spring6/spring6-016-sm/src/main/java/com/wdd/bank/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/SSM_Study/code/spring/spring6/spring6-014-tx-bank-xml/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ac027de657a01203f886873afaa8025e&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "E:/SSM_Study/code/spring/spring6/spring6-016-sm/src/main/java/com/wdd/bank/service",
+    "last_opened_file_path": "E:/SSM_Study/code/spring/spring6/spring6-014-tx-bank-xml/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "84973153fbd2c7282b50caf2cbf84c0e"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SSM_Study\code\spring\spring6\spring6-014-tx-bank-xml\src\main\resources" />
@@ -201,17 +457,7 @@
       <workItem from="1701259188123" duration="6859000" />
       <workItem from="1701347023768" duration="5895000" />
       <workItem from="1701496648119" duration="10761000" />
-      <workItem from="1701692870494" duration="1880000" />
-      <workItem from="1701957433410" duration="36000" />
     </task>
-    <task id="LOCAL-00001" summary="spring end">
-      <created>1701693051614</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1701693051614</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +476,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="spring end" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring end" />
   </component>
 </project>
